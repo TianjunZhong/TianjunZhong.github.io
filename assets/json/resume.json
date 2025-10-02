@@ -59,13 +59,15 @@
       "name": "Brain-Predictive Reasoning Embedding through Residual Disentanglement",
       "publisher": "NeurIPS 2025",
       "authors": ["Linyang He*", "Tianjun Zhong*", "Richard Antonello", "Gavin Mischler", "Micah Goldblum", "Nima Mesgarani"],
-      "url": "https://openreview.net/forum?id=tPqBnGwTwa&nesting=2&sort=date-desc"
+      "url": "https://openreview.net/forum?id=tPqBnGwTwa&nesting=2&sort=date-desc",
+      "releaseDate": "2025"
     },
     {
       "name": "K2-Think: A Parameter-Efficient Reasoning System",
       "publisher": "arXiv preprint",
       "authors": ["Zhoujun Cheng*", "Richard Fan*", "Shibo Hao*", "Taylor W. Killian*", "Haonan Li*", "Suqi Sun*", "Hector Ren", "Alexander Moreno", "Daqian Zhang", "Tianjun Zhong", "..."],
-      "url": "https://arxiv.org/abs/2509.07604"
+      "url": "https://arxiv.org/abs/2509.07604",
+      "releaseDate": "2025"
     }
   ],
   "research": [
