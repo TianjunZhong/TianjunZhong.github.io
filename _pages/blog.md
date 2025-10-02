@@ -101,6 +101,10 @@ pagination:
 
 {% endif %}
 
+  <div class="header-bar">
+    <h2 style="text-align: center; margin-top: 30px; color: var(--global-text-color-light);">Coming Soon</h2>
+  </div>
+
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
