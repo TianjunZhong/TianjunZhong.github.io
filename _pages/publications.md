@@ -15,6 +15,8 @@ nav_order: 2
 
 <div class="publications">
 
+<p style="margin-bottom: 20px; font-size: 0.9em; color: var(--global-text-color-light);">* Equal Contribution</p>
+
 {% bibliography %}
 
 </div>
