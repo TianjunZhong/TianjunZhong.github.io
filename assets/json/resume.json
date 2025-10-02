@@ -1,200 +1,157 @@
 {
   "basics": {
     "name": "Tianjun Zhong",
-    "label": "M.S. Student in Computer Science at Columbia",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "tianjun.zhong@columbia.edu",
+    "phone": "(470) 855-3939",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "New York",
+      "region": "NY",
+      "country": "USA"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "url": "http://www.linkedin.com/in/tianjunzhong"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/TianjunZhong"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Columbia University, Fu Foundation School of Engineering and Applied Science",
+      "location": "New York, NY",
+      "studyType": "M.S.",
+      "area": "Computer Science (Track: Machine Learning, Advanced Master’s Research)",
+      "startDate": "2024-09",
+      "endDate": "2026-05",
+      "gpa": "3.96/4.00",
+      "courses": [
+        "Natural Language Processing (A+)",
+        "Spoken Language Processing (A)",
+        "Computer Vision (A)",
+        "Artificial Intelligence (A-)"
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Emory University, Emory College of Arts and Sciences, Goizueta Business School",
+      "location": "Atlanta, GA",
+      "studyType": "B.A. & B.B.A.",
+      "area": "Computer Science and Business Administration (Double Major)",
+      "startDate": "2020-08",
+      "endDate": "2024-05",
+      "gpa": "3.88/4.00 (CS GPA: 3.97/4.00)",
+      "honors": [
+        "Graduation with Distinction (top 15%)",
+        "Dean’s List: Fall 2020, Fall 2021, Spring 2022, Fall 2023, Spring 2024"
+      ],
+      "courses": [
+        "Machine Learning (A)",
+        "Analysis of Algorithms (A)",
+        "Data Mining (A)"
+      ]
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Brain-Predictive Reasoning Embedding through Residual Disentanglement",
+      "publisher": "NeurIPS 2025",
+      "authors": ["Linyang He*", "Tianjun Zhong*", "Richard Antonello", "Gavin Mischler", "Micah Goldblum", "Nima Mesgarani"],
+      "url": "https://openreview.net/forum?id=tPqBnGwTwa&nesting=2&sort=date-desc"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "K2-Think: A Parameter-Efficient Reasoning System",
+      "publisher": "arXiv preprint",
+      "authors": ["Zhoujun Cheng*", "Richard Fan*", "Shibo Hao*", "Taylor W. Killian*", "Haonan Li*", "Suqi Sun*", "Hector Ren", "Alexander Moreno", "Daqian Zhang", "Tianjun Zhong", "..."],
+      "url": "https://arxiv.org/abs/2509.07604"
+    }
+  ],
+  "research": [
+    {
+      "name": "Efficient Multi-Agent Systems for Collaborative Software Engineering",
+      "position": "Research Assistant",
+      "institution": "Columbia University, Department of Computer Science",
+      "startDate": "2025-09",
+      "endDate": "Present",
+      "advisor": "Professor Baishakhi Ray",
+      "summary": "Designing collaborative LLM agents (<32B) to assist developers with complex software engineering tasks; targeting ICML 2026 submission."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Brain-Predictive Reasoning Embedding through Residual Disentanglement",
+      "position": "Research Assistant",
+      "institution": "Columbia University, Department of Electrical Engineering",
+      "startDate": "2025-01",
+      "endDate": "Present",
+      "advisor": "Professor Nima Mesgarani",
+      "summary": "Developed a residual disentanglement framework to separate linguistic and reasoning embeddings, validated with diagnostic tasks and human ECoG recordings; accepted to NeurIPS 2025."
+    },
+    {
+      "name": "K2-Think: A Parameter-Efficient Reasoning System",
+      "position": "Research Assistant",
+      "institution": "UC San Diego, Department of Computer Science & Engineering",
+      "startDate": "2025-05",
+      "endDate": "2025-09",
+      "advisor": "Professor Zhiting Hu",
+      "summary": "Led large-scale post-training of 32B/72B LLMs on 512 GPUs with RL/SFT; released open-source model and full training pipeline."
+    },
+    {
+      "name": "Retrieval-Augmented Generation with Unsupervised Learning",
+      "position": "Research Assistant",
+      "institution": "Columbia University, Department of Computer Science",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "advisor": "Professor Vishal Misra",
+      "summary": "Built a RAG system for academic advising with out-of-domain query detection, achieving 78.8% rejection of hallucination-prone queries."
+    }
+  ],
+  "work": [
+    {
+      "name": "TripleE Group",
+      "position": "AI Engineering Intern",
+      "location": "Shenzhen, China",
+      "startDate": "2024-05",
+      "endDate": "2024-08",
+      "summary": "Designed algorithms to improve RAG pipelines, evaluated embedding models, and built 23 FAISS vector databases; achieved 98.45% top-1 accuracy on high-difficulty queries."
+    },
+    {
+      "name": "Tencent, Department of IDC Platform",
+      "position": "Software Engineering Intern",
+      "location": "Shenzhen, China",
+      "startDate": "2023-05",
+      "endDate": "2023-06",
+      "summary": "Developed Python automation tools to reduce manual workload by 90%, created monitoring and reporting scripts for 30+ data centers, and integrated with Git and cloud databases."
+    }
+  ],
+  "teaching": [
+    {
+      "position": "Teaching Assistant",
+      "institution": "Emory University, Goizueta Business School",
+      "course": "Applied Data Analytics with Coding",
+      "startDate": "2024-01",
+      "endDate": "2024-05",
+      "summary": "Mentored 122 students, delivered feedback on coding assignments, and held weekly office hours."
+    }
+  ],
+  "awards": [
+    {
+      "title": "ICPC Southeast USA Regional Contest (3rd place out of 103 teams)",
+      "date": "2023"
+    },
+    {
+      "title": "ICPC Southeast USA Regional Contest (19th place out of 110 teams)",
+      "date": "2022"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming",
+      "keywords": ["Python (Transformers, PyTorch, TensorFlow, Scikit-learn, NumPy)", "Java", "SQL", "C", "R"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Languages",
+      "keywords": ["English (professional fluency, GRE 335)", "Mandarin (native)", "Cantonese (intermediate)"]
     }
   ]
 }
