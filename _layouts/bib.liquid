@@ -214,8 +214,8 @@
       {% if entry.openreview %}
         <a href="{{ entry.openreview }}" class="btn btn-sm z-depth-0" role="button">OpenReview</a>
       {% endif %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      {% if entry.huggingface %}
+        <a href="{{ entry.huggingface }}" class="btn btn-sm z-depth-0" role="button">Hugging Face</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -265,6 +265,9 @@
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+      {% endif %}
+      {% if entry.bibtex_show %}
+        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
