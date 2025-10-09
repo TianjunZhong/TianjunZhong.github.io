@@ -10,7 +10,14 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.permalink == '/publications/' %}
+        <a href="https://scholar.google.com/citations?user=1CB_0yEAAAAJ" target="_blank" rel="noopener noreferrer" style="margin-left: 5px">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      {% endif %}
+    </h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 
