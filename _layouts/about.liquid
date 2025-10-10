@@ -22,15 +22,24 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+          <link rel="stylesheet" href="{{ '/assets/css/profile-hover.css' | relative_url }}">
+          <div class="profile-pic-container">
+            <img 
+              src="{{ profile_image_path | relative_url }}" 
+              class="{{ profile_image_class }} profile-pic-front" 
+              alt="{{ page.profile.image }}"
+              width="{{ sizes }}"
+            >
+            <img 
+              src="{{ '/assets/img/prof_pic_back.jpg' | relative_url }}" 
+              class="{{ profile_image_class }} profile-pic-back" 
+              alt="Profile picture back"
+              width="{{ sizes }}"
+            >
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>

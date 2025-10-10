@@ -1,0 +1,23 @@
+.profile-pic-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-pic-container img {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.profile-pic-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.profile-pic-container:hover .profile-pic-back {
+    opacity: 1;
+}
+
+.profile-pic-container:hover .profile-pic-front {
+    opacity: 0;
+}
