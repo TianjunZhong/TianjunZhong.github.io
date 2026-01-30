@@ -24,7 +24,7 @@
       "institution": "Columbia University, Fu Foundation School of Engineering and Applied Science",
       "location": "New York, NY",
       "studyType": "M.S.",
-      "area": "Computer Science (Track: Machine Learning, Advanced Master’s Research)",
+      "area": "Computer Science, Track: Advanced Master's Research (Machine Learning)",
       "startDate": "2024-09",
       "endDate": "2026-05",
       "gpa": "3.96/4.00",
@@ -45,7 +45,7 @@
       "gpa": "3.88/4.00 (CS GPA: 3.97/4.00)",
       "honors": [
         "Graduation with Distinction (top 15%)",
-        "Dean’s List: Fall 2020, Fall 2021, Spring 2022, Fall 2023, Spring 2024"
+        "Dean's List: Fall 2020, Fall 2021, Spring 2022, Fall 2023, Spring 2024"
       ],
       "courses": [
         "Machine Learning (A)",
@@ -56,18 +56,32 @@
   ],
   "publications": [
     {
+      "name": "SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning",
+      "publisher": "arXiv preprint",
+      "authors": ["Jinjun Peng*", "Magnus Saebo*", "Tianjun Zhong", "Yi-Jie Cheng", "Junfeng Yang", "Baishakhi Ray", "Simin Chen", "Yangruibo Ding"],
+      "url": "https://arxiv.org/abs/2601.21649",
+      "releaseDate": "2026.01"
+    },
+    {
+      "name": "From Chains to DAGs: Probing the Graph Structure of Reasoning in LLMs",
+      "publisher": "arXiv preprint",
+      "authors": ["Tianjun Zhong", "Linyang He", "Nima Mesgarani"],
+      "url": "https://arxiv.org/abs/2601.17593",
+      "releaseDate": "2026.01"
+    },
+    {
       "name": "Brain-Predictive Reasoning Embedding through Residual Disentanglement",
       "publisher": "NeurIPS 2025",
       "authors": ["Linyang He*", "Tianjun Zhong*", "Richard Antonello", "Gavin Mischler", "Micah Goldblum", "Nima Mesgarani"],
       "url": "https://arxiv.org/abs/2510.22860",
-      "releaseDate": "2025"
+      "releaseDate": "2025.10"
     },
     {
       "name": "K2-Think: A Parameter-Efficient Reasoning System",
       "publisher": "arXiv preprint",
       "authors": ["Zhoujun Cheng*", "Richard Fan*", "Shibo Hao*", "Taylor W. Killian*", "Haonan Li*", "Suqi Sun*", "Hector Ren", "Alexander Moreno", "Daqian Zhang", "Tianjun Zhong", "..."],
       "url": "https://arxiv.org/abs/2509.07604",
-      "releaseDate": "2025"
+      "releaseDate": "2025.09"
     }
   ],
   "research": [
