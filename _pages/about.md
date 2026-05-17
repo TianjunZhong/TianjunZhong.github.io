@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Tianjun Zhong, an incoming PhD student in Computer Science at Johns Hopkins University, advised by Professor [Ziyang Li](https://liby99.github.io). I received my Master’s degree in Computer Science from Columbia University. My research focuses on **understanding and enhancing reasoning in large language models (LLMs)**, with broader interests in **interpretability and LLM-based agents**.
+I am Tianjun Zhong, an incoming PhD student in Computer Science at Johns Hopkins University, advised by [Professor Ziyang Li](https://liby99.github.io). I received my Master’s degree in Computer Science from Columbia University. My research focuses on **understanding and enhancing reasoning in large language models (LLMs)**, with broader interests in **interpretability and LLM-based agents**.
 
 My work spans several directions: investigating the mechanisms that underlie reasoning in LLMs, developing methods to improve interpretability and layer-wise understanding, building collaborative agentic systems for complex tasks, and advancing approaches to post-training that preserve reliability at scale. These efforts aim to deepen our scientific understanding of model internals while creating practical systems that are efficient and trustworthy.
 
