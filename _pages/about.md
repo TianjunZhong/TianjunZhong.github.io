@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span>tianjun.zhong@columbia.edu</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='https://www.cs.columbia.edu/'>Columbia CS</a>. <a href='https://naplab.ee.columbia.edu/'>NAP Lab</a>. <a href='https://www.rayb.info/ariselab'>ARiSE Lab</a>.
+subtitle: <span>tianjun.zhong@columbia.edu</span>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='https://www.cs.columbia.edu/'>Columbia CS</a>. <a href='https://naplab.ee.columbia.edu/'>NAP Lab</a>. <a href='https://ariselab.github.io/'>ARiSE Lab</a>.
 
 profile:
   align: right
