@@ -1,5 +1,6 @@
 ---
-hidden: true 
+hidden: true
+published: false
 layout: post
 title: a post with jupyter notebook
 date: 2023-07-04 08:57:00-0400

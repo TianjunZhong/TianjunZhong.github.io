@@ -1,5 +1,6 @@
 ---
-hidden: true 
+hidden: true
+published: false
 layout: post
 title: a post with typograms
 date: 2024-04-29 23:36:10

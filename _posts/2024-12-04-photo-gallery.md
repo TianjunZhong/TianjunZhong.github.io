@@ -1,5 +1,6 @@
 ---
-hidden: true 
+hidden: true
+published: false
 layout: post
 title: a post with image galleries
 date: 2024-12-04 01:59:00

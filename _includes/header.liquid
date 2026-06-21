@@ -68,16 +68,20 @@
                   {% endif %}
                 {% endfor %}
                 <li class="nav-item dropdown {% if page.title == p.title or has_active_child %}active{% endif %}">
+                  {% assign nav_title = p.nav_title | default: p.title %}
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
                     id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
+                    {% if p.nav_meow %}
+                      data-nav-meow
+                    {% endif %}
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    {{- nav_title }}
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -87,17 +91,22 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
+                        {% assign child_nav_title = child.nav_title | default: child.title %}
                         <a
                           class="dropdown-item {% if page.title == child.title %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
+                          {% if child.nav_meow %}
+                            data-nav-meow
+                          {% endif %}
                         >
-                          {{- child.title -}}
+                          {{- child_nav_title -}}
                         </a>
                       {% endif %}
                     {% endfor %}
                   </div>
                 </li>
               {% else %}
+                {% assign nav_title = p.nav_title | default: p.title %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
@@ -107,8 +116,14 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                  <a
+                    class="nav-link"
+                    href="{{ url | relative_url }}"
+                    {% if p.nav_meow %}
+                      data-nav-meow
+                    {% endif %}
+                  >
+                    {{- nav_title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
@@ -121,7 +136,7 @@
             <!-- Search -->
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+                <span class="nav-link"><i class="ti ti-search"></i></span>
               </button>
             </li>
           {% endif %}
